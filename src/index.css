@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header{
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1{
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.header div ul{
+  list-style: none;
+  display: flex;
+}
+.header div ul li{
+  margin: 5px;
+  padding: 5px;
+}
+.header div ul li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.header div ul li a:hover{
+  color: brown;
+}
+.smart{
+  color: brown;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.bodyElement{
+  text-align: center;
+}
+.bodyElement img{
+  width: 200px;
+}
+#footerfile{
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
