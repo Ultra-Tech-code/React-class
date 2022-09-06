@@ -46,9 +46,35 @@ code {
 }
 .bodyElement{
   text-align: center;
+  height: 76vh;
 }
 .bodyElement img{
   width: 200px;
+}
+.bodyElement div{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section h1{
+  text-align: center;
+}
+.btn{
+  margin: 5px 0px;
+  padding: 5px;
+  background-color: brown;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font: 400;
+}
+.btn:hover{
+  background-color: rgb(173, 26, 26);
 }
 #footerfile{
   text-align: center;

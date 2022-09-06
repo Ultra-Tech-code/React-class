@@ -1,34 +1,21 @@
 import React from 'react'
 import img1 from  '../images/Nft-rare.jpg'
+import Section from "./Section.js"
 
-///home/blackadam/Downloads/TosinsPracticalClass/class1React/my-app/public/Nft-rare.jpg
+// let count = 0;
+// function increase(){
+//     count++;
+// }
 
 const Body = () => {
   return (
     <div className='bodyElement'>
         <h1>Five <span className="smart">Smart contract</span> to write on as a beginner</h1>
         <div>
-            <div>
-                <h1>Time lock Contract</h1>
-                <img src={img1} alt="timelock image" />
-            </div>
-
-            <div>
-                <h1></h1>
-                <img src="" alt="" />
-            </div>
-            <div>
-                <h1></h1>
-                <img src="" alt="" />
-            </div>
-            <div>
-                <h1></h1>
-                <img src="" alt="" />
-            </div>
-            <div>
-                <h1></h1>
-                <img src="" alt="" />
-            </div>
+            <Section img = {img1} name = "Time lock" />
+            <Section img = {img1} name = "Counter App" />
+            <Section img = {img1} name = "Token contract" />
+            <Section img = {img1} name = "Todo app" />
         </div>
     </div>
   )
